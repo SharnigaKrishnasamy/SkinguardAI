@@ -1,0 +1,23 @@
+# secrets (never upload)
+.env
+.env.*
+!.env.example
+
+# dependencies and build output
+node_modules/
+dist/
+*.log
+
+# rebuilt by npm run ingest
+backend/rag/embed-cache.json
+
+# macOS
+.DS_Store
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+backend/rag/embed-cache.json
+.DS_Store
+*.log
